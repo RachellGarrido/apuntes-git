@@ -1,4 +1,6 @@
 #Apuntes Git desde 0
+Git es un sistema de control de versiones para el mantenimiento eficiente y confiable de archivos.
+
 
 ##Estados de Git
 
@@ -47,7 +49,11 @@ editor: git config --global core.editor editorcmd
 * git add file.extension    (Añadir el archivo a la preparación)
 
 ### Crear punto en la historia
-* git commit -m ""  (Comentario de cambios)
-* git log           (Ver cambios y registros)
-* git diff          (ver cambios del archivo en terminal)
-* git diff --staged (Ver cambios entre archivo preparado y work)
+* git commit -m ""          (Comentario de cambios)
+* git log                   (Ver cambios y registros)
+* git diff                  (ver cambios del archivo en terminal)
+* git diff --staged         (Ver cambios entre archivo preparado y work)
+    
+* git add .                 (Agrega todos los archivos a preparación)
+* git reset HEAD file.ext   (Quita un archivo del área de preparación)
+* git add -A                (Agrega todos los archivos en seguimiento al área de preparación)
