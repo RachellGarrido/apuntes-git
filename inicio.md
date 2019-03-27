@@ -69,4 +69,13 @@ editor: git config --global core.editor editorcmd
 ## Renombre
 
 * git mv fromfile fileto    (renombrar archivos)
+Equivalente a:
+1. renombrar el archivo manualmente.
+2. git rm para eliminar el archivo
+3. git add para agregar el archivo con el nuevo nombre
 
+# Git ignore (Patrones de nombres que git ignorará)
+
+* gitignore.io
+
+* Crear un archivo gitignore.md y dentro tipear los archivos a ignorar.
