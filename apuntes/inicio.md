@@ -49,7 +49,7 @@ editor: git config --global core.editor editorcmd
 * git add file.extension    (Añadir el archivo a la preparación)
 
 ### Crear punto en la historia
-* git commit -m ""          (Comentario de cambios)
+* git commit -m ""          (guarda los archivos ya preparados)
 * git log                   (Ver cambios y registros)
 * git diff                  (ver cambios del archivo en terminal)
 * git diff --staged         (Ver cambios entre archivo preparado y work)
@@ -57,3 +57,11 @@ editor: git config --global core.editor editorcmd
 * git add .                 (Agrega todos los archivos a preparación)
 * git reset HEAD file.ext   (Quita un archivo del área de preparación)
 * git add -A                (Agrega todos los archivos en seguimiento al área de preparación)
+
+* git commit -a -m          (Guarda los archivos ya preparados y todos los archivos rastreados, saltando el área de preparación)
+
+
+## Borrando archivos
+
+* git rm        (Elimina archivos rastreados del repositorio )
+
