@@ -63,5 +63,10 @@ editor: git config --global core.editor editorcmd
 
 ## Borrando archivos
 
-* git rm        (Elimina archivos rastreados del repositorio )
+* git rm file               (Elimina archivos rastreados del repositorio )
+* git checkout -- <file>    (Recupera un archivo borrado)
+
+## Renombre
+
+* git mv fromfile fileto    (renombrar archivos)
 
