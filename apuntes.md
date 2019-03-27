@@ -78,3 +78,17 @@ Equivalente a:
 
 * gitignore.io
 * Crear un archivo gitignore.md y dentro tipear los archivos a ignorar.
+
+
+## Git log
+
+* git log --oneline (Muestra el historial en lineas abreviado)
+* git log --graph   (Añade gráfico ASCII mostrando el historias de ramificación)
+* git log --oneline --graph
+* git log -numero (Permite filtrar el historial de los últimos cambios)
+
+* git log --pretty=format:"%h - %an, %ar : %s"  (Formateado de texto para ver el historial) (hash autor fecha referencial texto)
+
+* git log --after="2019-03-26"  (Filtro log por fecha despues de)
+* git log --before="2019-03-26"  (Filtro log por fecha) antes de)
+* git log --after="2019-03-26" --before="2019-03-26" (entre)
