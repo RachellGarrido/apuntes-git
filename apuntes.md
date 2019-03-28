@@ -112,6 +112,8 @@ Equivalente a:
 
 * git checkout master (volver al presente)
 
+* git checkout etiqueta (ir a una etiqueta)
+
 
 ## Etiquetas y marcadores (Se ordena en alfabético)
 
@@ -124,3 +126,16 @@ Equivalente a:
 * git tag etiqueta e4fba8c (Para tagger en un punto diferente)
 
 * git tag -l "patron" (filtra las etiquetas por el patrón buscado)
+
+
+## Ramas de Git
+
+Son apuntadores móviles (las etiquetas igual) que nos indican a que rama pertenece el commit
+La rama máster es por defecto y no más importante que otras.
+Se pueden crear nuevas ramas y nombrarlas.
+(Testing,estable, v.1, marchablanca)
+HEAD siempre nos indica donde estamos parados en la historias.
+
+* Git branch --help     (ayuda)
+* Git branch nombreRama (nueva rama)
+* Git checkout rama     (moverse a la rama)
