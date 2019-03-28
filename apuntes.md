@@ -64,7 +64,7 @@ editor: git config --global core.editor editorcmd
 ## Borrando archivos
 
 * git rm file               (Elimina archivos rastreados del repositorio )
-* git checkout -- <file>    (Recupera un archivo borrado)
+* git checkout -- <file>    (Recupera un archivo borrado y deshace los cambios de x archivo)
 
 ## Renombre
 
@@ -96,3 +96,4 @@ Equivalente a:
 ## Rehacer confirmación
 
 * git commit --amend    (Abre la última confirmación y le permite realizar cambios en el texto incluido)
+

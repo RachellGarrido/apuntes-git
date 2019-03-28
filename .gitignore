@@ -1,1 +1,4 @@
+#Aqui se agregan todos los archivos a ignorar
+# *.txt para evitar un formato concreto
+
 secret.md
