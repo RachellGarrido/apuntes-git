@@ -97,3 +97,17 @@ Equivalente a:
 
 * git commit --amend    (Abre la última confirmación y le permite realizar cambios en el texto incluido)
 
+## clonar repositorio
+
+* por GitHub descargar el zip
+
+* git clone url  nombre-opcional (Descargar repositorio por https y cmd)
+
+
+##salto en la historia
+
+* git diff commit commit (git diff 457eb8f 4800dsk) (En rojo lo borrado, verde lo agregado)
+
+* git checkout commit (volver los cambios)
+
+* git checkout master (volver al presente)
