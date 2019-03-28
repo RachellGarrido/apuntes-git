@@ -139,3 +139,5 @@ HEAD siempre nos indica donde estamos parados en la historias.
 * Git branch --help     (ayuda)
 * Git branch nombreRama (nueva rama)
 * Git checkout rama     (moverse a la rama)
+
+* Git branch            (Muestra todas las ramas de nuestro proyecto y la posición actual)
