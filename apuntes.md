@@ -122,3 +122,5 @@ Equivalente a:
 * git show _____    (etiqueta, commit etc, el comando muestra el git)
 
 * git tag etiqueta e4fba8c (Para tagger en un punto diferente)
+
+* git tag -l "patron" (filtra las etiquetas por el patrón buscado)
