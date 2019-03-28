@@ -111,3 +111,14 @@ Equivalente a:
 * git checkout commit (volver los cambios)
 
 * git checkout master (volver al presente)
+
+
+## Etiquetas y marcadores (Se ordena en alfabético)
+
+1. ligeras: git tag marcador (se agrega el último commit, uso básico)
+
+2. anotadas: git tag -a etiqueta -m "commit" (Se guardan en BD como un objeto entero y contiene el nombre, email, fecha y mensaje del editor)
+
+* git show _____    (etiqueta, commit etc, el comando muestra el git)
+
+* git tag etiqueta e4fba8c (Para tagger en un punto diferente)
