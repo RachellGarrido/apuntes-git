@@ -92,3 +92,7 @@ Equivalente a:
 * git log --after="2019-03-26"  (Filtro log por fecha despues de)
 * git log --before="2019-03-26"  (Filtro log por fecha) antes de)
 * git log --after="2019-03-26" --before="2019-03-26" (entre)
+
+## Rehacer confirmación
+
+* git commit --amend    (Abre la última confirmación y le permite realizar cambios en el texto incluido)
