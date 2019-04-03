@@ -138,6 +138,7 @@ HEAD siempre nos indica donde estamos parados en la historias.
 * Git branch --help     (ayuda)
 * Git branch nombreRama (nueva rama)
 * Git checkout rama     (moverse a la rama)
+* git checkout -b rama  (crear y moverse a la rama)
 
 * git branch            (muestra las ramas y la posición actual)
 * git branch -v         (Muestra el último commit de cada rama)
@@ -156,5 +157,13 @@ HEAD siempre nos indica donde estamos parados en la historias.
 * git checkout commit
 * git checkout -d nombrerama
 
-## Git Remote add origin http://github.com/RachellGarrido/_____
-* Subir archivos a GitHub
+##Subir a GitHub
+
+### git remote add origin
+* https://github.com/RachellGarrido/apuntes-git
+
+### git push origin master  (subimos la rama a gh)
+* Se sube la rama al proyecto.
+
+### Fork para copias y clonar el proyecto después.
+
