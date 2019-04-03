@@ -139,4 +139,10 @@ HEAD siempre nos indica donde estamos parados en la historias.
 * Git checkout rama     (moverse a la rama)
 
 * git branch            (muestra las ramas y la posición actual)
+* git branch            (Muestra el último commit de cada rama)
+
+## Fusiones de git 
+
+* git merge
+
 
