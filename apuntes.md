@@ -127,13 +127,8 @@ Equivalente a:
 
 * git tag -l "patron" (filtra las etiquetas por el patrón buscado)
 
-<<<<<<< HEAD
-## Ramas de Git
-### Las ramas siguen carácteristicas o funcionalidades nuevas que deben ser creadas aparte y luego de la estabilidad, se añaden a máster.
-=======
 
 ## Ramas de Git
->>>>>>> testing
 
 Son apuntadores móviles (las etiquetas igual) que nos indican a que rama pertenece el commit
 La rama máster es por defecto y no más importante que otras.
@@ -146,11 +141,12 @@ HEAD siempre nos indica donde estamos parados en la historias.
 * Git checkout rama     (moverse a la rama)
 
 * git branch            (muestra las ramas y la posición actual)
-* git branch            (Muestra el último commit de cada rama)
+* git branch -v         (Muestra el último commit de cada rama)
 
 ## Fusiones de git 
 
-* git merge
-
-
-Se pueden crear todas las ramas necesarias.
+* git merge nombre-rama (fusionar rama a la principal)
+* git branch -d          (elimina la rama si ya ha sido fusionada)
+* git branch -D         (Elimina la rama a la fuerza)
+* git branch --no-merged  (Muestra las ramas que no hemos fusionado aún)
+* git branch --merged   (muestra las ramas ya fusionadas, y no borradas)
