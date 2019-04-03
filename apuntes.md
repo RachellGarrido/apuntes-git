@@ -150,3 +150,5 @@ HEAD siempre nos indica donde estamos parados en la historias.
 * git branch -D         (Elimina la rama a la fuerza)
 * git branch --no-merged  (Muestra las ramas que no hemos fusionado aún)
 * git branch --merged   (muestra las ramas ya fusionadas, y no borradas)
+
+* Si hay problemas de compatibilidad ya que cada archivo modifica cada linea en las ramas, la solución es borrar las lineas de aviso, o cambiar el archivo y hacer un commit.
