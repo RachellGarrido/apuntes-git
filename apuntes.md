@@ -118,14 +118,13 @@ Equivalente a:
 ## Etiquetas y marcadores (Se ordena en alfabético)
 
 1. ligeras: git tag marcador (se agrega el último commit, uso básico)
-
 2. anotadas: git tag -a etiqueta -m "commit" (Se guardan en BD como un objeto entero y contiene el nombre, email, fecha y mensaje del editor)
-
 * git show _____    (etiqueta, commit etc, el comando muestra el git)
-
 * git tag etiqueta e4fba8c (Para tagger en un punto diferente)
+* git tag -l "patron" (filtra las etiquetas por el patrón 
+buscado)
 
-* git tag -l "patron" (filtra las etiquetas por el patrón buscado)
+* git tag -d etiqueta    (borrar la etiqueta)
 
 
 ## Ramas de Git
@@ -152,3 +151,7 @@ HEAD siempre nos indica donde estamos parados en la historias.
 * git branch --merged   (muestra las ramas ya fusionadas, y no borradas)
 
 * Si hay problemas de compatibilidad ya que cada archivo modifica cada linea en las ramas, la solución es borrar las lineas de aviso, o cambiar el archivo y hacer un commit.
+
+###¿Volver a la rama?
+* git checkout commit
+* git checkout -d nombrerama
