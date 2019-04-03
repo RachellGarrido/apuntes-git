@@ -155,3 +155,6 @@ HEAD siempre nos indica donde estamos parados en la historias.
 ###¿Volver a la rama?
 * git checkout commit
 * git checkout -d nombrerama
+
+## Git Remote add origin http://github.com/RachellGarrido/_____
+* Subir archivos a GitHub
