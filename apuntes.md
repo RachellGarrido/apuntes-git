@@ -157,6 +157,8 @@ HEAD siempre nos indica donde estamos parados en la historias.
 * git checkout commit
 * git checkout -d nombrerama
 
+# GitHub
+
 ##Subir a GitHub
 * pasos:
 1. Crear nuevo repositorio.
@@ -172,3 +174,18 @@ HEAD siempre nos indica donde estamos parados en la historias.
 
 ### Fork para copias y clonar el proyecto después.
 
+## Pasos para aportar 
+1. Hacer fork en GitHub.
+2. Clonar el repositorio desde mi cuenta de GitHub.
+3. Crear una rama local.
+4. Realizar mis cambios en mi nueva rama local.
+5. confirmar los cambios realizados en local.
+6. Hacer push de mis cambios(Enviar commits a github) git push origin nombrerama
+7. Crear un pull request con la nueva rama de mi respositorio en github.
+8. Esperar que el admin del repositorio original acepte mis cambios
+
+* Desde admin, hay que jalar los cambios a nuestro proyecto local.
+1. git fetch origin master
+2. git merge origin master
+
+* (Mezclar los cambios desde GH)
