@@ -158,6 +158,11 @@ HEAD siempre nos indica donde estamos parados en la historias.
 * git checkout -d nombrerama
 
 ##Subir a GitHub
+* pasos:
+1. Crear nuevo repositorio.
+2. Indicar carácteristicas.
+3. subir repositorio (local) con git remote add origin (en el proyecto local)
+4. git push origin master (indicar la rama a subir)
 
 ### git remote add origin
 * https://github.com/RachellGarrido/apuntes-git
