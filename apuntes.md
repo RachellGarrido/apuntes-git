@@ -189,3 +189,8 @@ HEAD siempre nos indica donde estamos parados en la historias.
 2. git merge origin master
 
 * (Mezclar los cambios desde GH)
+
+### otros remotos
+* git remote --verbose
+* git remote add user urlgithub
+* git remote add origin
