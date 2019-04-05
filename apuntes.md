@@ -200,3 +200,11 @@ HEAD siempre nos indica donde estamos parados en la historias.
 * SourceTreeApp
 * Github
 * Gitlab
+
+# Flujo lógico.
+
+1. Crear proyecto Git.
+2. Hacer commits correspondientes.
+3. Crear nuevas ramas para commits carácteristicos.
+4. Hacer merge de las ramas a master.
+5. Subir a GitHub.
