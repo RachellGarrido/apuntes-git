@@ -200,6 +200,7 @@ HEAD siempre nos indica donde estamos parados en la historias.
 * SourceTreeApp
 * Github
 * Gitlab
+* Bitbucket
 
 # Flujo lógico.
 
@@ -208,3 +209,4 @@ HEAD siempre nos indica donde estamos parados en la historias.
 3. Crear nuevas ramas para commits carácteristicos.
 4. Hacer merge de las ramas a master.
 5. Subir a GitHub.
+
