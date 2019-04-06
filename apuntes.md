@@ -219,3 +219,9 @@ HEAD siempre nos indica donde estamos parados en la historias.
 3. Mostrar la llave en git bash
     * cat /folder/folder/keyname_rsa.pub
 4. Copiar y pegar la llave en github.
+
+## activar en cmd
+
+1. añadir llave: ssh de github a remote add.
+2. activar agente (para push): eval "$(ssh-agent -s)"
+3. añadir llave: ssh-add /folder/folder/github_rsa
