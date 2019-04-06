@@ -210,3 +210,12 @@ HEAD siempre nos indica donde estamos parados en la historias.
 4. Hacer merge de las ramas a master.
 5. Subir a GitHub.
 
+# Llaves SHH
+
+1. Crear carpeta Key local (c:)
+2. comando git para generar la llave
+    * ssh-keygen -t rsa -C "Email"
+    * folder /keyname_sra
+3. Mostrar la llave en git bash
+    * cat /folder/folder/keyname_rsa.pub
+4. Copiar y pegar la llave en github.
