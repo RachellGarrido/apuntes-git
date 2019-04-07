@@ -225,3 +225,10 @@ HEAD siempre nos indica donde estamos parados en la historias.
 1. añadir llave: ssh de github a remote add.
 2. activar agente (para push): eval "$(ssh-agent -s)"
 3. añadir llave: ssh-add /folder/folder/github_rsa
+
+##Otros apuntes
+* git rebase : merge lineal.
+* git stash : cambios provisionales
+* git cherry-pick : cambiar commit de rama
+
+* Usar GitHub como host.
